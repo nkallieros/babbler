@@ -24,7 +24,7 @@
   
 [Kernels]
  [diffusion]
-   type = ADDiffusion # laplacian operator
+   type = DarcyPressure # laplacian operator
    variable = pressure #to which variable to apply the opreator 
   []
  []
