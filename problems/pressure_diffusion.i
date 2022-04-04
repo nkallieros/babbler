@@ -26,6 +26,7 @@
  [diffusion]
    type = DarcyPressure # laplacian operator
    variable = pressure #to which variable to apply the opreator 
+   permeability = 0.8451e-09# (m^2) assumed permability of the porous medium
   []
  []
 
